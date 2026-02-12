@@ -13,9 +13,10 @@ function App() {
       <section className='palindrome'>
       <Palindrome />
       </section>
-      <section className=''>
+      <section className='second_largest_number'>
       <DeuxiemePlusGrandNb />
       </section>
+      <section className='sommmes_nb'></section>
     </div>
   )
 }
