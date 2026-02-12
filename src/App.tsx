@@ -4,6 +4,7 @@ import CountInTab from './components/countInTab'
 import Palindrome from './components/palindrome'
 import SommeChiffresNb from './components/sommeschiffrenb'
 import SommeUnChiffre from './components/sommesUnChiffre'
+import ZeroTableau from './components/zeroTableau'
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
       </section>
       <section className='un_restant'>
         <SommeUnChiffre />
+      </section>
+      <section className='zero_tableau'>
+        <ZeroTableau />
       </section>
 
     </div>
