@@ -1,5 +1,6 @@
 import './App.css'
 import CountInTab from './components/countInTab'
+import Palindrome from './components/palindrome'
 
 function App() {
 
@@ -7,6 +8,9 @@ function App() {
     <div className='App'>
       <section className='count'>
         <CountInTab />
+      </section>
+      <section className='palindrome'>
+      <Palindrome />
       </section>
     </div>
   )
