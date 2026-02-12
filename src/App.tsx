@@ -3,6 +3,7 @@ import DeuxiemePlusGrandNb from './components/2emePlusGrandNb'
 import CountInTab from './components/countInTab'
 import Palindrome from './components/palindrome'
 import SommeChiffresNb from './components/sommeschiffrenb'
+import SommeUnChiffre from './components/sommesUnChiffre'
 
 function App() {
 
@@ -20,7 +21,9 @@ function App() {
       <section className='sommmes_nb'>
         <SommeChiffresNb />
       </section>
-      <section className='un_restant'></section>
+      <section className='un_restant'>
+        <SommeUnChiffre />
+      </section>
 
     </div>
   )
