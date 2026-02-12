@@ -57,28 +57,27 @@ function DeuxiemePlusGrandNb() {
       <h1>Deuxième plus grand nombre</h1>
       <form onSubmit={handleSubmit}>
         <label>
-          Tableau d&apos;entiers (séparés par des virgules) :
+          Tableau d'entiers (séparés par des virgules) :
           <br />
           <input
             type="text"
             value={arrayInput}
             onChange={(e) => setArrayInput(e.target.value)}
-            style={{ width: '100%', maxWidth: 400 }}
           />
         </label>
-        <button type="submit" style={{ marginLeft: '0.5rem' }}>
+        <button type="submit">
           Chercher
         </button>
       </form>
 
       {error && (
-        <p style={{ color: 'red', marginTop: '0.5rem' }}>
+        <p>
           {error}
         </p>
       )}
 
       {result !== null && !error && (
-        <p style={{ marginTop: '0.5rem' }}>
+        <p>
           Le deuxième plus grand nombre est : <strong>{result}</strong>
         </p>
       )}

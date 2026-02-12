@@ -42,7 +42,7 @@ function CountInTab() {
       <form onSubmit={handleSubmit}>
         <div>
           <label>
-            Tableau d&apos;entiers (séparés par des virgules) :
+            Tableau d'entiers (séparés par des virgules) :
             <br />
             <input
               type="text"
@@ -70,7 +70,7 @@ function CountInTab() {
         </button>
       </form>
 
-      <div style={{ marginTop: '1rem' }}>
+      <div>
         {result !== null && (
           <p>
             Le nombre apparaît <strong>{result}</strong> fois dans le tableau.

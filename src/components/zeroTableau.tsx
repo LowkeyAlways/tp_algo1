@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '../styles/zeroTableau.css'
 
 function createZeroMatrix(n: number, m: number): number[][] {
   const matrix: number[][] = []
@@ -57,7 +58,7 @@ function ZeroTableau() {
             />
           </label>
         </div>
-        <div style={{ marginTop: '0.5rem' }}>
+        <div>
           <label>
             m (colonnes) :
             <br />
@@ -69,13 +70,13 @@ function ZeroTableau() {
             />
           </label>
         </div>
-        <button type="submit" style={{ marginTop: '0.75rem' }}>
+        <button type="submit">
           Créer le tableau
         </button>
       </form>
 
       {error && (
-        <p style={{ color: 'red', marginTop: '0.75rem' }}>
+        <p className='error'>
           {error}
         </p>
       )}

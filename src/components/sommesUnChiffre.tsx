@@ -42,7 +42,7 @@ function SommeUnChiffre() {
 
   return (
     <>
-      <h1>Somme des chiffres jusqu&apos;à un seul chiffre</h1>
+      <h1>Somme des chiffres jusqu'à un seul chiffre</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Entier positif :

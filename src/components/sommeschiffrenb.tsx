@@ -43,7 +43,7 @@ function SommeChiffresNb() {
 
   return (
     <>
-      <h1>Somme des chiffres d&apos;un nombre</h1>
+      <h1>Somme des chiffres d'un nombre</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Entier positif :
