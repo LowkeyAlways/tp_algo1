@@ -2,6 +2,7 @@ import './App.css'
 import DeuxiemePlusGrandNb from './components/2emePlusGrandNb'
 import CountInTab from './components/countInTab'
 import Palindrome from './components/palindrome'
+import SommeChiffresNb from './components/sommeschiffrenb'
 
 function App() {
 
@@ -16,7 +17,11 @@ function App() {
       <section className='second_largest_number'>
       <DeuxiemePlusGrandNb />
       </section>
-      <section className='sommmes_nb'></section>
+      <section className='sommmes_nb'>
+        <SommeChiffresNb />
+      </section>
+      <section className='un_restant'></section>
+
     </div>
   )
 }
