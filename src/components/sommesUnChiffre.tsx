@@ -4,7 +4,7 @@ function reduceToSingleDigit(n: number): { steps: string[]; final: number } {
   const steps: string[] = []
   let current = n
 
-  while (current >= 10) {
+  while (current >= 10) { 
     const digits = String(current)
       .split('')
       .map((c) => Number(c))
